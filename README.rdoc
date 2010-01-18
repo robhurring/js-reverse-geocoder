@@ -1,0 +1,7 @@
+=About
+
+Really simple wrapper around geonames.org's postalcode service which helps do reverse geocoding in javascript. 
+
+Author:: Rob Hurring (mailto:rob@zerobased.com)
+Homepage:: http://blog.ubrio.us
+License:: DWTFYWWI
