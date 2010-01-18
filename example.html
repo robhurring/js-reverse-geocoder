@@ -12,11 +12,7 @@
   $(document).ready(function()
   {
     $.lookupZipCode('07003', function(data)
-    {
-      function normalizeString(string){
-        return string.toString().toLowerCase().replace(/\s/g, '_');
-      }
-      
+    {      
       if(data)
       {
         $('#location').html("You live in " + data.city + ", " + data.state_name + " - " + data.zip_code);
